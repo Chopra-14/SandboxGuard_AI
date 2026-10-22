@@ -1,0 +1,5 @@
+{
+  "policy": "fresh",
+  "description": "When step 7 fails, the agent discards the current sandbox and creates a fresh one for the next attempt, ensuring no residual state can affect subsequent runs.",
+  "evidence_path": "agent/run.py"
+}

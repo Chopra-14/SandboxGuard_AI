@@ -1,0 +1,5 @@
+{
+  "description": "Demonstrate a Celesto‑based sandbox that runs a harmless command, logs the run, and cleans up.",
+  "solution": "A Docker‑based sandbox is created, a Python one‑liner is executed, the run is posted to the FastAPI control‑plane, and the container is destroyed.",
+  "evidence_path": "agent/run.py"
+}

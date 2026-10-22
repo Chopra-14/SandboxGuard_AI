@@ -1,0 +1,108 @@
+{
+  "total_runs": 20,
+  "successful_runs": 20,
+  "median_success_duration_sec": 3.6297225952148438,
+  "p90_success_duration_sec": 3.784597396850586,
+  "runs": [
+    {
+      "run": 1,
+      "duration_sec": 3.0825061798095703,
+      "state": "succeeded"
+    },
+    {
+      "run": 2,
+      "duration_sec": 3.7443907260894775,
+      "state": "succeeded"
+    },
+    {
+      "run": 3,
+      "duration_sec": 3.6327035427093506,
+      "state": "succeeded"
+    },
+    {
+      "run": 4,
+      "duration_sec": 3.6846864223480225,
+      "state": "succeeded"
+    },
+    {
+      "run": 5,
+      "duration_sec": 3.703350782394409,
+      "state": "succeeded"
+    },
+    {
+      "run": 6,
+      "duration_sec": 3.689239740371704,
+      "state": "succeeded"
+    },
+    {
+      "run": 7,
+      "duration_sec": 3.6222283840179443,
+      "state": "succeeded"
+    },
+    {
+      "run": 8,
+      "duration_sec": 3.5221633911132812,
+      "state": "succeeded"
+    },
+    {
+      "run": 9,
+      "duration_sec": 3.6133477687835693,
+      "state": "succeeded"
+    },
+    {
+      "run": 10,
+      "duration_sec": 3.554645538330078,
+      "state": "succeeded"
+    },
+    {
+      "run": 11,
+      "duration_sec": 3.4813058376312256,
+      "state": "succeeded"
+    },
+    {
+      "run": 12,
+      "duration_sec": 3.6433777809143066,
+      "state": "succeeded"
+    },
+    {
+      "run": 13,
+      "duration_sec": 3.5497303009033203,
+      "state": "succeeded"
+    },
+    {
+      "run": 14,
+      "duration_sec": 3.7531487941741943,
+      "state": "succeeded"
+    },
+    {
+      "run": 15,
+      "duration_sec": 3.784597396850586,
+      "state": "succeeded"
+    },
+    {
+      "run": 16,
+      "duration_sec": 3.6297225952148438,
+      "state": "succeeded"
+    },
+    {
+      "run": 17,
+      "duration_sec": 3.4237561225891113,
+      "state": "succeeded"
+    },
+    {
+      "run": 18,
+      "duration_sec": 3.620680093765259,
+      "state": "succeeded"
+    },
+    {
+      "run": 19,
+      "duration_sec": 3.307633638381958,
+      "state": "succeeded"
+    },
+    {
+      "run": 20,
+      "duration_sec": 3.9270713329315186,
+      "state": "succeeded"
+    }
+  ]
+}

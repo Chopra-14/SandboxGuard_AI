@@ -1,0 +1,1 @@
+{"containment_test": "Executed a destructive command (rm -rf /) inside a sandbox; host filesystem unchanged. Verified by checking a host file before and after.", "evidence_path": "tests/containment_test.py"}

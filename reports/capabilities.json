@@ -1,0 +1,14 @@
+{
+  "capabilities": [
+    {
+      "name": "persistence",
+      "rationale": "The sandbox is created as a Docker container that preserves its filesystem state across multiple command executions, allowing the agent to resume work after interruptions and ensuring that data generated during the sandbox session is retained until explicit cleanup, which is essential for reliable long‑running tasks.",
+      "evidence_path": "agent/run.py"
+    },
+    {
+      "name": "snapshot",
+      "rationale": "Before executing the potentially risky step we could take a Docker checkpoint (snapshot) of the container, enabling a quick rollback to a known good state if the command fails, thereby protecting the host environment and supporting the required failure‑recovery policy.",
+      "evidence_path": "agent/run.py"
+    }
+  ]
+}

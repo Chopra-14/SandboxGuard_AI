@@ -50,7 +50,7 @@ class RunIn(BaseModel):
 @app.get("/api/runs")
 async def list_runs():
     with engine.connect() as conn:
-        result = conn.execute(select(runs_table))
+        result = conn.execute(select(runs_table)).mappings()
         rows = [dict(row) for row in result]
     return JSONResponse(content=rows)
 

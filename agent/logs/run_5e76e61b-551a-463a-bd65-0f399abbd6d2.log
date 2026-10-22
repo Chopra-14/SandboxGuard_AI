@@ -1,0 +1,24 @@
+2026-10-22 10:44:19,807 INFO Executing: celesto sandbox create --name sbx-5e76e61b
+2026-10-22 10:44:19,840 INFO Return code: 1
+2026-10-22 10:44:19,840 INFO stdout: 
+2026-10-22 10:44:19,840 INFO stderr: 'celesto' is not recognized as an internal or external command,
+operable program or batch file.
+2026-10-22 10:44:19,840 ERROR Unhandled exception in workflow
+Traceback (most recent call last):
+  File "E:\GPP\Task_40\Celesto_Sandboxes\agent\run.py", line 77, in main
+    create_sandbox(sandbox_name)
+  File "E:\GPP\Task_40\Celesto_Sandboxes\agent\run.py", line 44, in create_sandbox
+    raise RuntimeError(f"Failed to create sandbox: {err}")
+RuntimeError: Failed to create sandbox: 'celesto' is not recognized as an internal or external command,
+operable program or batch file.
+
+2026-10-22 10:44:19,903 INFO Run record posted successfully: 201
+2026-10-22 10:44:19,904 INFO Executing: celesto sandbox destroy sbx-5e76e61b
+2026-10-22 10:44:19,940 INFO Return code: 1
+2026-10-22 10:44:19,940 INFO stdout: 
+2026-10-22 10:44:19,940 INFO stderr: 'celesto' is not recognized as an internal or external command,
+operable program or batch file.
+2026-10-22 10:44:19,940 WARNING Sandbox sbx-5e76e61b could not be destroyed cleanly: 'celesto' is not recognized as an internal or external command,
+operable program or batch file.
+
+2026-10-22 10:44:19,940 INFO Sandbox sbx-5e76e61b cleanup complete

@@ -1,0 +1,14 @@
+2026-10-22 14:43:14,303 INFO Executing: docker run --name sbx-5a59e8fc --rm -d python:3.11-slim tail -f /dev/null
+2026-10-22 14:43:14,981 INFO Return code: 0
+2026-10-22 14:43:14,982 INFO stdout: d391e728d5a7e2f43aaf85b32b9842dec17bf8e39494bf97cd8036284da6fc83
+2026-10-22 14:43:14,982 INFO stderr: 
+2026-10-22 14:43:14,982 INFO Executing: docker exec sbx-5a59e8fc python -c "print('hello from sandbox')"
+2026-10-22 14:43:15,380 INFO Return code: 0
+2026-10-22 14:43:15,380 INFO stdout: hello from sandbox
+2026-10-22 14:43:15,380 INFO stderr: 
+2026-10-22 14:43:15,409 INFO Run record posted successfully (status 201)
+2026-10-22 14:43:15,410 INFO Executing: docker stop sbx-5a59e8fc
+2026-10-22 14:43:17,011 INFO Return code: 0
+2026-10-22 14:43:17,011 INFO stdout: sbx-5a59e8fc
+2026-10-22 14:43:17,011 INFO stderr: 
+2026-10-22 14:43:17,011 INFO Sandbox sbx-5a59e8fc cleanup complete
